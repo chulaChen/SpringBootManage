@@ -10,5 +10,5 @@ import com.chenzhuo.model.User;
 
 public interface UserService {
 
-     User findUserName(String name);
+     User findUserName(String name,String password);
 }

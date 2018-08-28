@@ -18,5 +18,6 @@
         <include refid="Base_Column_List" />
         from users
         where userName = #{userName}
+        AND  userPwd = #{pwd}
     </select>
 </mapper>

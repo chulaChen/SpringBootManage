@@ -13,5 +13,5 @@ import org.springframework.stereotype.Repository;
  */
 public interface UserDao {
 
-    User findUserName(@Param("userName") String userName);
+    User findUserName(@Param("userName") String userName,@Param("pwd")String pwd);
 }

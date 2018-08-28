@@ -18,7 +18,7 @@ public class UserServiceImpl implements  UserService {
     @Resource
     private UserDao userDao;
 
-    public User findUserName(String name) {
-        return userDao.findUserName(name);
+    public User findUserName(String name,String password) {
+        return userDao.findUserName(name,password);
     }
 }
