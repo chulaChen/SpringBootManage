@@ -15,8 +15,8 @@ public class QueryRunnerDemo {
     private static Connection con = JDBCUtlTool.getConnection();
 
     public static void main(String[] args)throws SQLException {
-        //insert();
-        update();
+        insert();
+//        update();
         //delete();
     }
     /*
