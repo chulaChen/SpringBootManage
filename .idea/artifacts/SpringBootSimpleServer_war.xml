@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringBootSimpleServer:war">
+    <output-path>$PROJECT_DIR$/SpringBootSimpleServer/target</output-path>
+    <root id="archive" name="SpringBootSimpleServer.war">
+      <element id="artifact" artifact-name="SpringBootSimpleServer:war exploded" />
+    </root>
+  </artifact>
+</component>

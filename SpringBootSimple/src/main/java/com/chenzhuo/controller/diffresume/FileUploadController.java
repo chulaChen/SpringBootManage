@@ -1,22 +1,19 @@
-package com.chenzhuo.controller;
+package com.chenzhuo.controller.diffresume;
 
-import com.chenzhuo.controller.diffresume.FileUpLoadClient;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * @author cz
+ * @Date 2018/12/5
+ * @Description
+ */
 @Controller
-@RequestMapping("user")
-public class UserController {
-
-    @RequestMapping("/welcome")
-    public ModelAndView hello() {
-        System.out.println("hahhahahhah");
-        return new ModelAndView("user/index");
-    }
+@RequestMapping({"api/app"})
+public class FileUploadController {
 
     @RequestMapping({"resume"})
     public String list(

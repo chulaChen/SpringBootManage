@@ -10,6 +10,7 @@
   <modules>
     <module>SpringBootStart</module>
     <module>SpringBootSimple</module>
+      <module>SpringBootSimpleServer</module>
   </modules>
   <packaging>pom</packaging>
 

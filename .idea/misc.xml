@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SpringBootSimple" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringBootSimpleServer" />
     <file type="web" url="file://$PROJECT_DIR$/SpringBootStart" />
   </component>
   <component name="MavenProjectsManager">
